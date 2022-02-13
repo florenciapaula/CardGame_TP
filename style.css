@@ -89,7 +89,7 @@ header{
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
 
   /* POR CLASE ***********************************************************************************************/
   body {
@@ -98,6 +98,7 @@ header{
     background-position: center;
     width: 100%;
     display: grid;
+    margin:auto;
   }
   .titulo {
     font-size: 30px;
