@@ -63,10 +63,8 @@ header{
 
   /* POR CLASE ***********************************************************************************************/
   body {
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-color:green;
+    width: 98%;
     display: grid;
     margin:auto;
   }
@@ -89,16 +87,14 @@ header{
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 500px) {
 
   /* POR CLASE ***********************************************************************************************/
   body {
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-color:green;
+    width: 98%;
     display: grid;
-    margin:auto;
+    margin: auto;
   }
   .titulo {
     font-size: 30px;
@@ -121,10 +117,8 @@ header{
 @media only screen and (min-width: 768px) {
   /* POR CLASE ***********************************************************************************************/
   body {
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-color:green;
+    width: 98%;
     display: grid;
     margin:auto;
   }
@@ -149,10 +143,8 @@ header{
 @media only screen and (min-width: 992px) {
   /* POR CLASE ***********************************************************************************************/
   body {
-    background-image: url(images/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-color:green;
+    width: 98%;
     display: grid;
     margin:auto;
   }
@@ -177,10 +169,8 @@ header{
 @media only screen and (min-width: 1200px) {
 /* POR CLASE ***********************************************************************************************/
 body {
-  background-image: url(images/fondo.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+  background-color:green;
+  width: 98%;
   display: grid;
   margin:auto;
 }
