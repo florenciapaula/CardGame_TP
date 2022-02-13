@@ -1,4 +1,9 @@
 /* HOJA DE ESTILO****************************************************************************************/
+
+*{
+  font-family: 'Short Stack', cursive;
+  color:white;
+}
 #cantdeIntentosCartas{
   text-align: center;
   display:block;
@@ -13,14 +18,6 @@
   width: 100px;
   display:block;
 }
-body {
-  background-image: url(images/fondo.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  display: grid;
-  margin:auto;
-}
 header{
   display:flex;
   flex-direction: row;
@@ -34,10 +31,6 @@ header{
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin: auto;
-}
-*{
-  font-family: 'Short Stack', cursive;
-  color:white;
 }
 .cards{
   display:grid;
@@ -69,7 +62,14 @@ header{
 @media only screen and (max-width: 600px) {
 
   /* POR CLASE ***********************************************************************************************/
-
+  body {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    margin:auto;
+  }
   .titulo {
     font-size: 20px;
     justify-content: center;
@@ -87,13 +87,19 @@ header{
   #logo {
     height: 2rem;
   }
-  }
-
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
   /* POR CLASE ***********************************************************************************************/
-
+  body {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    margin:auto;
+  }
   .titulo {
     font-size: 30px;
     justify-content: center;
@@ -114,7 +120,14 @@ header{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   /* POR CLASE ***********************************************************************************************/
-
+  body {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    margin:auto;
+  }
   .titulo {
     font-size: 40px;
     justify-content: center;
@@ -128,13 +141,21 @@ header{
   }
   
 /*POR ID*************************************************************************************************************/
-}#logo {
+#logo {
     height: 6rem;  
+}
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* POR CLASE ***********************************************************************************************/
-
+  body {
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    margin:auto;
+  }
   .titulo {
     font-size: 50px;
     justify-content: center;
@@ -151,12 +172,18 @@ header{
   #logo {
     height: 8rem;  
   }
-  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {/*POR TIPO***********************************************************************************************/
-
+@media only screen and (min-width: 1200px) {
 /* POR CLASE ***********************************************************************************************/
-
+body {
+  background-image: url(images/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: grid;
+  margin:auto;
+}
 .titulo {
   font-size: 60px;
   justify-content: center;
