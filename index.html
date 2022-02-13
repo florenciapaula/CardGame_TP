@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<!-- HEAD DE LA PAGINA -->
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+  <title>Play and Listen</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon2.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet" />
+</head>
+
+<!-- BODY DE LA PAGINA -->
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <img id="logo" src="images/favicon.png" />
+
+    <h1 class="titulo">
+      ♪ Play and Listen ♪ <br> Guess the Card</h1>
+
+    <img id="logo" src="images/favicon2.png" />
+
+  </header>
+
+  <!-- ADIVINAR LA CARTA -->
+
+  <h2 id="cantdeIntentosCartas" value=""></h2>
+
+  <input class="btn" type="submit" value="Play again" id="btncarta" onClick="sortearCarta();" />
+
+  <br>
+
+  <!-- SECCION CARTAS -->
+
+  <section id="juegoCartas">
+
+    <div class="cards">
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta1" src="images/cartaback.jpg" onclick="elegirCarta(1)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta2" src="images/cartaback.jpg" onclick="elegirCarta(2)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta3" src="images/cartaback.jpg" onclick="elegirCarta(3)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta4" src="images/cartaback.jpg" onclick="elegirCarta(4)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta5" src="images/cartaback.jpg" onclick="elegirCarta(5)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta6" src="images/cartaback.jpg" onclick="elegirCarta(6)">
+      </div>
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta7" src="images/cartaback.jpg" onclick="elegirCarta(7)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta8" src="images/cartaback.jpg" onclick="elegirCarta(8)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta9" src="images/cartaback.jpg" onclick="elegirCarta(9)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta10" src="images/cartaback.jpg" onclick="elegirCarta(10)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta11" src="images/cartaback.jpg" onclick="elegirCarta(11)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta12" src="images/cartaback.jpg" onclick="elegirCarta(12)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta13" src="images/cartaback.jpg" onclick="elegirCarta(13)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta14" src="images/cartaback.jpg" onclick="elegirCarta(14)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta15" src="images/cartaback.jpg" onclick="elegirCarta(15)">
+      </div>
+
+      <div id="carta">
+        <img class="imgcarta" id="imgcarta16" src="images/cartaback.jpg" onclick="elegirCarta(16)">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--SPOTIFY-->
+
+  <h2 class="titulo" id="spotify">♪ Listen to music ♪</h2>
+
+
+  <iframe id="spotify" style="border-radius:12px"
+    src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8XuzoFe1VZC?utm_source=generator&theme=0" height="380"
+    frameBorder="0" allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+
+  </iframe>
+
+  <!--JAVASCRIPT-->
+
+  <script src="script.js"></script>
+  <script>sortearCarta();</script>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+/* HOJA DE ESTILO****************************************************************************************/
+#cantdeIntentosCartas{
+  text-align: center;
+  display:block;
+}
+#btncarta{
+  margin:auto;
+  width: 100px;
+  display:none;
+}
+#btncartamostrar{
+  margin:auto;
+  width: 100px;
+  display:block;
+}
+body {
+  background-image: url(images/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 95%;
+  display: grid;
+  margin:auto;
+}
+header{
+  display:flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+  min-width: 95%;
+}
+#spotify{
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+*{
+  font-family: 'Short Stack', cursive;
+  color:white;
+}
+.cards{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 0.2rem;
+  column-gap: 0.4rem;
+}
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: violet;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+.btn:active {
+  transform: translateY(4px);
+}
+#juegoCartas{
+  width: auto;
+  height: 100%;
+  margin:auto;
+}
+/*MEDIA QUERIES******************************************************************************************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* POR CLASE ***********************************************************************************************/
+
+  .titulo {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+  }
+
+  .imgcarta{
+    width:5rem;
+    margin:auto;
+  }
+  /*POR ID**********************************************************************************************************/
+
+  #logo {
+    height: 2rem;
+  }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  /* POR CLASE ***********************************************************************************************/
+
+  .titulo {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+  }
+  .imgcarta{
+    width:6rem;
+    margin:auto;
+  }
+/*POR ID********************************************************************************************************/
+
+ #logo {
+    height: 4rem;  
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* POR CLASE ***********************************************************************************************/
+
+  .titulo {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+  }
+  .imgcarta{
+    width:7rem;
+    margin:auto;
+  }
+  
+/*POR ID*************************************************************************************************************/
+}#logo {
+    height: 6rem;  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* POR CLASE ***********************************************************************************************/
+
+  .titulo {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+  }
+
+  .imgcarta{
+    width:8rem;
+    margin:auto;
+  }
+/*POR ID***************************************************************************************************/
+  #logo {
+    height: 8rem;  
+  }
+  }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {/*POR TIPO***********************************************************************************************/
+
+/* POR CLASE ***********************************************************************************************/
+
+.titulo {
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.imgcarta{
+  width:10rem;
+  margin:auto;
+}
+/*POR ID*************************************************************************************************/
+#logo {
+  height: 10rem;  
+}
+}
