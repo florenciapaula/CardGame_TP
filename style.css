@@ -98,7 +98,6 @@ header{
     background-position: center;
     width: 100%;
     display: grid;
-    margin:auto;
   }
   .titulo {
     font-size: 30px;
